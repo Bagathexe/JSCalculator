@@ -20,8 +20,8 @@ body{
     font-size: 5rem;
     text-align: left;
     border:none;
-    background-color: hsl(0, 0%, 20%);
-    color:hsl(0, 0%, 20%);
+    background-color: hsl(0, 16%, 91%);
+    color:white;
 }
 #Keys{
     display:grid;
