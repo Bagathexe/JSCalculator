@@ -1,13 +1,21 @@
-const display =Document.getElementById("display");
+// const display =Document.getElementById('display');
 
-function appendToDisplay(input){
-    display.value += input;
-}
+// function appendToDisplay(input){
+//     display.value = input;
+// }
 
-function clearDisplay(input){
+// function clearDisplay(input){
     
-}
+// }
 
-function calculate(){
+// function calculate(){
     
+// }
+// const display = 
+// function myFunc(){
+//     docment.getElementById("devil").Style.color  = "red";
+// }
+const display=document.getElementById("display");
+function display(input){
+    display.value  +=input;
 }

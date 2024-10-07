@@ -1,4 +1,4 @@
-body{
+ body{
     margin:0;
     display:flex;
     justify-content:center;
@@ -20,8 +20,8 @@ body{
     font-size: 5rem;
     text-align: left;
     border:none;
-    background-color: hsl(0, 16%, 91%);
-    color:white;
+    background-color: hsl(0, 0%, 100%);
+    color:black;
 }
 #Keys{
     display:grid;
@@ -54,4 +54,4 @@ button:active{
 }
 .operator-button:active{
     background-color: hsl(35, 100%, 75%);
-}
+} 
