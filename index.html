@@ -6,7 +6,7 @@
     </head>
     <body>
         <div id="Calculator">
-            <input  type="display" id="display" >
+            <input  type="display" id="display"  readonly>
            
             <div id="Keys">
                 <button onclick="appendToDisplay('+')" class="operator-button">+</button>
@@ -24,9 +24,10 @@
                 <button onclick="appendToDisplay('/') " class="operator-button">/</button>
                 <button onclick="appendToDisplay('0')">0</button>
                 <button onclick="appendToDisplay('.')">.</button>
-                <button onclick="calclulate()" >=</button>
-                <button onclick="clearDisplay() " class="operator-button" >C</button>
-
+                <button onclick="calculate()" >=</button>
+                <button onclick="clearDisplay() " class="operator-button" >AC</button>
+                <button onclick="Delete() " class="operator-button" >DEL</button>
+                
             </div>
         </div>
         <script src="index.js"></script>
